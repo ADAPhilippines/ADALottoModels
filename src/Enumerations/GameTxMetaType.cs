@@ -6,8 +6,8 @@ namespace ADALottoModels.Enumerations
 {
     public enum GameTxMetaType
     {
-        Start,
-        End,
+        Genesis,
+        EndGame,
         TicketPurchase
     }
 }
