@@ -10,5 +10,6 @@ namespace ADALotto.Models
         public float EpochNo { get; set; }
         public float Size { get; set; }
         public DateTime Time { get; set; }
+        public int[]? Hash { get; set; }
     }
 }
