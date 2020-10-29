@@ -4,11 +4,10 @@ using System.Text;
 
 namespace ADALottoModels
 {
-    public class ADALottoGameResults
+    public class ADALottoGameWinner
     {
+        public string Address { get; set; } = string.Empty;
         public DateTime DrawDate { get; set; }
-        public List<ADALottoWinningBlock> Numbers { get; set; } = new List<ADALottoWinningBlock>();
         public double Prize { get; set; }
-        public int WinnerCount { get; set; } = 0;
     }
 }

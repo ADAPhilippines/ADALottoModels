@@ -7,6 +7,6 @@ namespace ADALotto.Models
     public class QueryResponse
     {
         public BlockChainInfo? BlockChainInfo { get; set; }
-        public AdaLottoGameInfo? AdaLottoGameInfo { get; set; }
+        public ADALottoGameInfo? AdaLottoGameInfo { get; set; }
     }
 }

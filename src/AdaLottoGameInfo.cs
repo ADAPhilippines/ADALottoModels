@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ADALotto.Models
 {
-    public class AdaLottoGameInfo
+    public class ADALottoGameInfo
     {
         public DataConnection<Transaction>? Transactions { get; set; }
     }
