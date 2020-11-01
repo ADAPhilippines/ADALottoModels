@@ -7,8 +7,8 @@ namespace ADALotto.Models
     {
         public GameTxMetaType Type { get; set; } = GameTxMetaType.Genesis;
         public int Digits { get; set; }
-        public int Interval { get; set; }
-        public float Prize { get; set; }
+        public int BlockInterval { get; set; }
+        public float BasePrize { get; set; }
         public string BasePrizeUnit { get; set; } = string.Empty;
         public float TicketPrice { get; set; }
         public string TicketPriceUnit { get; set; } = string.Empty;
