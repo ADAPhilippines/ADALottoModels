@@ -6,7 +6,7 @@ namespace ADALotto.Models
 {
     public class TransactionMeta
     {
-        public float Id { get; set; }
-        public string Json { get; set; } = string.Empty;
+        public float? Id { get; set; }
+        public string? Json { get; set; }
     }
 }

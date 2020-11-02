@@ -6,7 +6,7 @@ namespace ADALotto.Models
 {
     public class DataConnection<T>
     {
-        public IEnumerable<T> Nodes { get; set; } = new List<T>();
-        public int TotalCount { get; set; }
+        public IEnumerable<T>? Nodes { get; set; }
+        public int? TotalCount { get; set; }
     }
 }
