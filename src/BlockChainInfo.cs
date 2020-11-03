@@ -8,6 +8,7 @@ namespace ADALotto.Models
     public class BlockChainInfo
     {
         public DataConnection<Block>? Blocks { get; set; }
+        public DataConnection<Transaction>? Transactions { get; set; }
         public DataConnection<TransactionOut>? TxOuts { get; set; }
     }
 }

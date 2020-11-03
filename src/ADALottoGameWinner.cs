@@ -9,5 +9,6 @@ namespace ADALottoModels
         public string Address { get; set; } = string.Empty;
         public DateTime DrawDate { get; set; }
         public double Prize { get; set; }
+        public bool IsRewarded { get; set; } = false;
     }
 }
