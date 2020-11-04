@@ -6,9 +6,9 @@ namespace ADALotto.Models
 {
     public class Block
     {
-        public float Id { get; set; }
-        public float EpochNo { get; set; }
-        public float Size { get; set; }
+        public long Id { get; set; }
+        public long EpochNo { get; set; }
+        public long Size { get; set; }
         public DateTime Time { get; set; }
         public int[]? Hash { get; set; }
     }

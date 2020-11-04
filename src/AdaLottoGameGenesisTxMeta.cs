@@ -8,9 +8,9 @@ namespace ADALotto.Models
         public GameTxMetaType Type { get; set; } = GameTxMetaType.Genesis;
         public int Digits { get; set; }
         public int BlockInterval { get; set; }
-        public float BasePrize { get; set; }
+        public long BasePrize { get; set; }
         public string BasePrizeUnit { get; set; } = string.Empty;
-        public float TicketPrice { get; set; }
+        public long TicketPrice { get; set; }
         public string TicketPriceUnit { get; set; } = string.Empty;
         public bool IsPermutable { get; set; }
     }

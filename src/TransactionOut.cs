@@ -7,6 +7,6 @@ namespace ADALottoModels
     public class TransactionOut
     {
         public string? Address { get; set; }
-        public float? Value { get; set; }
+        public long? Value { get; set; }
     }
 }
