@@ -8,7 +8,7 @@ namespace ADALottoModels
     {
         public DateTime DrawDate { get; set; }
         public List<ADALottoWinningBlock> Numbers { get; set; } = new List<ADALottoWinningBlock>();
-        public double Prize { get; set; }
+        public long Prize { get; set; }
         public int WinnerCount { get; set; } = 0;
     }
 }
