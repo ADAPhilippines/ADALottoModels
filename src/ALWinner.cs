@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 namespace ADALottoModels
 {
-    public class ADALottoGameWinner
+    public class ALWinner
     {
         public string Address { get; set; } = string.Empty;
         public long DrawBlockId { get; set; }

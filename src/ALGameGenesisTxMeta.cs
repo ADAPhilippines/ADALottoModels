@@ -3,7 +3,7 @@ using ADALottoModels.Interfaces;
 
 namespace ADALotto.Models
 {
-    public class ADALottoGameGenesisTxMeta : IADALottoGameTxMeta
+    public class ALGameGenesisTxMeta : IALGameTxMeta
     {
         public GameTxMetaType Type { get; set; } = GameTxMetaType.Genesis;
         public int Digits { get; set; }

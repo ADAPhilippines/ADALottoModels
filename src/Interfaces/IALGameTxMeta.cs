@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ADALottoModels.Interfaces
 {
-    public interface IADALottoGameTxMeta
+    public interface IALGameTxMeta
     {
         public GameTxMetaType Type { get; set; }
     }
