@@ -9,7 +9,7 @@ namespace ADALotto.Models
     {
         public long? Id { get; set; }
         public long? Block { get; set; }
-        public Block? Block1 { get; set; }
+        public Block Block1 { get; set; } = new Block();
         public IEnumerable<TransactionMeta>? TxMetadata { get; set; }
         public IEnumerable<TransactionIn>? InTxIns { get; set; }
     }
