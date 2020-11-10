@@ -12,5 +12,6 @@ namespace ADALotto.Models
         public Block Block1 { get; set; } = new Block();
         public IEnumerable<TransactionMeta>? TxMetadata { get; set; }
         public IEnumerable<TransactionIn>? InTxIns { get; set; }
+        public int[]? Hash { get; set; }
     }
 }
