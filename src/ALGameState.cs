@@ -17,5 +17,6 @@ namespace ADALottoModels
         public Block PrevDrawBlock { get; set; }= new Block();
         public bool IsDrawing { get; set; }
         public bool IsRunning { get; set; }
+        public int NextRoundTicketCount { get; set; } = 0;
     }
 }
