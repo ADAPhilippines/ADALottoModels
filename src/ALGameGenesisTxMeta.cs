@@ -12,7 +12,6 @@ namespace ADALotto.Models
         public string BasePrizeUnit { get; set; } = string.Empty;
         public long TicketPrice { get; set; }
         public string TicketPriceUnit { get; set; } = string.Empty;
-        public bool IsPermutable { get; set; }
         public long WinnerPrizeRatio { get; set; }
     }
 }
