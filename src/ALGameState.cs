@@ -18,5 +18,6 @@ namespace ADALottoModels
         public bool IsDrawing { get; set; }
         public bool IsRunning { get; set; }
         public int NextRoundTicketCount { get; set; } = 0;
+        public string Version { get; set; } = string.Empty;
     }
 }
