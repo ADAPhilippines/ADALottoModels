@@ -13,5 +13,6 @@ namespace ADALotto.Models
         public long TicketPrice { get; set; }
         public string TicketPriceUnit { get; set; } = string.Empty;
         public bool IsPermutable { get; set; }
+        public double WinnerPrizeRatio { get; set; }
     }
 }
