@@ -7,5 +7,6 @@ namespace ADALotto.Models
     public class ADALottoGameInfo
     {
         public DataConnection<Transaction>? Transactions { get; set; }
+        public DataConnection<Transaction>? WinningTpTxes { get; set; }
     }
 }
